@@ -1,0 +1,232 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 217, 178);
+}
+body
+{
+    background-color: white;
+}
+header h1
+{
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    background-color: burlywood;
+    
+}
+.card
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 2%;
+    
+    
+}
+.card .cardbody
+{
+    padding: 1%;
+    flex-wrap: wrap;
+    border: solid burlywood;
+    margin: 1%;
+    width: 25%;
+    border-radius: 5%;
+    box-shadow: 3px 2px 2px burlywood;
+    background-color: white;
+    text-align: center;
+
+
+}
+.card .cardbody h2
+{
+    text-align: center;
+    color: rgb(141, 122, 122);
+    text-shadow: 2px 2px 3px rgb(12, 12, 12);
+}
+img{
+   width: auto;
+   height: 200px;
+   display: block;
+   margin: auto;
+}
+s{
+    color: red;
+}
+p
+{
+    font-weight: bold;
+    
+}
+h2,s,p,u
+{
+    background-color: white;
+    display: block;
+    margin: auto;
+}
+ 
+u{
+    font-size: 20px;
+    
+}
+button
+{
+    background-color:coral;
+    border-radius: 10%;
+    margin: 1%;
+    padding: 2%;
+    
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    header h1
+    {
+        align-items: center;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
+        background-color: burlywood;
+        
+    }
+    .card
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+    .card .cardbody
+    {
+        padding: 5%;
+        flex-wrap: wrap;
+        border: solid burlywood;
+        margin: auto;
+        margin-top: 2%;
+        width: 75%;
+
+        border-radius: 5%;
+        box-shadow: 3px 2px 2px burlywood;
+        background-color: white;
+        text-align: center;
+    
+    
+    }
+    .card .cardbody h2
+    {
+        text-align: center;
+        color: rgb(141, 122, 122);
+        text-shadow: 2px 2px 3px rgb(158, 157, 157);
+    }
+    img{
+       width: auto;
+       height: 200px;
+       display: block;
+       margin: auto;
+    }
+    s{
+        color: red;
+    }
+    p
+    {
+        font-weight: bold;
+        
+    }
+    h2,s,p,u
+    {
+        background-color: white;
+        display: block;
+        margin: auto;
+    }
+     
+    u{
+        font-size: 20px;
+        
+    }
+    button
+    {
+        background-color:coral;
+        border-radius: 10%;
+        margin: 1%;
+        padding: 2%;
+        
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    header h1
+    {
+        align-items: center;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
+        background-color: burlywood;
+        
+    }
+    .card
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+    .card .cardbody
+    {
+        padding: 5%;
+        flex-wrap: wrap;
+        border: solid burlywood;
+        margin: auto;
+        margin-top: 2%;
+        width: 30%;
+
+        border-radius: 5%;
+        box-shadow: 3px 2px 2px burlywood;
+        background-color: white;
+        text-align: center;
+    
+    
+    }
+    .card .cardbody h2
+    {
+        text-align: center;
+        color: rgb(141, 122, 122);
+        text-shadow: 2px 2px 3px rgb(158, 157, 157);
+    }
+    img{
+       width: auto;
+       height: 200px;
+       display: block;
+       margin: auto;
+    }
+    s{
+        color: red;
+    }
+    p
+    {
+        font-weight: bold;
+        
+    }
+    h2,s,p,u
+    {
+        background-color: white;
+        display: block;
+        margin: auto;
+    }
+     
+    u{
+        font-size: 20px;
+        
+    }
+    button
+    {
+        background-color:coral;
+        border-radius: 10%;
+        margin: 1%;
+        padding: 2%;
+        
+    }
+}
